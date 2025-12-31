@@ -1,0 +1,392 @@
+[07:24:28] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.18.2
+[07:24:29] [main/INFO]: Loading 49 mods:
+	- accurate-spears 2.2.0
+	- classicfarlands 1.1.0+mc1.21.10
+	   \-- mixson 1.4.0
+	- fabric-api 0.138.4+1.21.10
+	   |-- fabric-api-base 1.0.0+14b92d896f
+	   |-- fabric-api-lookup-api-v1 1.6.106+d17682156f
+	   |-- fabric-biome-api-v1 16.1.0+c2417d4f6f
+	   |-- fabric-block-api-v1 1.1.5+d17682156f
+	   |-- fabric-block-view-api-v2 1.0.34+e4fd1b926f
+	   |-- fabric-command-api-v2 2.4.0+c0ab2d5d6f
+	   |-- fabric-content-registries-v0 10.2.6+b6a242646f
+	   |-- fabric-convention-tags-v1 2.1.49+7f945d5b6f
+	   |-- fabric-convention-tags-v2 2.17.0+ff7bc77d6f
+	   |-- fabric-crash-report-info-v1 0.3.18+33df5e6e6f
+	   |-- fabric-data-attachment-api-v1 1.8.33+cd3b9e596f
+	   |-- fabric-data-generation-api-v1 23.2.27+d8b85ef16f
+	   |-- fabric-dimensions-v1 4.0.22+38b9cc196f
+	   |-- fabric-entity-events-v1 2.1.13+fde3702c6f
+	   |-- fabric-events-interaction-v0 4.0.36+5ba217126f
+	   |-- fabric-game-rule-api-v1 1.1.1+e47eaae56f
+	   |-- fabric-item-api-v1 11.5.11+9bce411b6f
+	   |-- fabric-item-group-api-v1 4.2.27+86b3ae576f
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c486f
+	   |-- fabric-lifecycle-events-v1 2.6.9+33df5e6e6f
+	   |-- fabric-loot-api-v2 3.0.67+3f89f5a56f
+	   |-- fabric-loot-api-v3 2.0.14+d17682156f
+	   |-- fabric-message-api-v1 6.1.7+3154c1c86f
+	   |-- fabric-model-loading-api-v1 6.0.5+3ffd6ef06f
+	   |-- fabric-networking-api-v1 5.1.0+b095d8db6f
+	   |-- fabric-object-builder-api-v1 21.1.28+9bce411b6f
+	   |-- fabric-particles-v1 4.2.3+a0ee59a46f
+	   |-- fabric-recipe-api-v1 8.2.0+39709ef06f
+	   |-- fabric-registry-sync-v0 6.1.42+679c8c5c6f
+	   |-- fabric-renderer-api-v1 7.2.3+9be2a36e6f
+	   |-- fabric-renderer-indigo 4.1.4+9be2a36e6f
+	   |-- fabric-rendering-fluids-v1 3.1.38+86b3ae576f
+	   |-- fabric-rendering-v1 16.2.0+bee81f016f
+	   |-- fabric-resource-conditions-api-v1 5.0.28+33df5e6e6f
+	   |-- fabric-resource-loader-v0 3.3.1+d4d4122a6f
+	   |-- fabric-resource-loader-v1 1.0.4+14959b836f
+	   |-- fabric-screen-api-v1 3.1.0+9c82a7986f
+	   |-- fabric-screen-handler-api-v1 1.3.151+d17682156f
+	   |-- fabric-serialization-api-v1 1.0.0+d857c9766f
+	   |-- fabric-sound-api-v1 1.0.45+328a75ba6f
+	   |-- fabric-tag-api-v1 1.2.13+2fa446b26f
+	   |-- fabric-transfer-api-v1 6.0.15+79ec2c126f
+	   \-- fabric-transitive-access-wideners-v1 6.5.3+41eb43436f
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- java 21
+	- litematica-server-paster 1.3.12
+	   \-- fanetlib 0.2.6
+	- minecraft 1.21.10
+	- tooltrims 1.3.0+mc1.21.9
+	- worldedit 7.3.17+7262-c7fbe08
+	   \-- worldeditcui_protocol 4.0.2
+[07:24:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Tuk4Tuk/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[07:24:29] [main/INFO]: Compatibility level set to JAVA_21
+[07:24:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[07:24:37] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@162923aa]
+[07:24:37] [main/INFO]: WorldEdit for Fabric (version 7.3.17+7262-c7fbe08) is loaded
+[07:24:37] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:24:37] [main/ERROR]: Couldn't load file/generation2.zip pack metadata: Pack declared support for versions 88 to 88 but declared main format is 81
+[07:24:37] [main/WARN]: Missing metadata in pack file/generation3.zip
+[07:24:41] [Worker-Main-3/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[07:24:42] [main/INFO]: Loaded 1482 recipes
+[07:24:42] [main/INFO]: Loaded 1586 advancements
+[07:24:42] [main/INFO]: Applied 0 biome modifications to 0 of 160 new biomes in 1.527 ms
+[07:24:42] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[07:24:42] [Server thread/INFO]: Loading properties
+[07:24:42] [Server thread/INFO]: Default game type: SURVIVAL
+[07:24:42] [Server thread/INFO]: Generating keypair
+[07:24:42] [Server thread/INFO]: Starting Minecraft server on *:6769
+[07:24:42] [Server thread/INFO]: Using epoll channel type
+[07:24:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:24:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:24:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:24:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:24:42] [Server thread/INFO]: Preparing level "world"
+[07:24:43] [Server thread/INFO]: Loading 25 persistent chunks...
+[07:24:43] [Server thread/INFO]: Preparing spawn area: 28%
+[07:24:44] [Server thread/INFO]: Preparing spawn area: 28%
+[07:24:44] [Server thread/INFO]: Preparing spawn area: 28%
+[07:24:45] [Server thread/INFO]: Preparing spawn area: 28%
+[07:24:45] [Server thread/INFO]: Preparing spawn area: 28%
+[07:24:46] [Server thread/INFO]: Preparing spawn area: 28%
+[07:24:46] [Server thread/INFO]: Preparing spawn area: 28%
+[07:24:47] [Server thread/INFO]: Preparing spawn area: 28%
+[07:24:47] [Server thread/INFO]: Time elapsed: 3534 ms
+[07:24:47] [Server thread/INFO]: Done (4.372s)! For help, type "help"
+[07:25:34] [Server thread/INFO]: Eternity[/127.139.25.163:34269] logged in with entity id 3 at (1.2550167706991179E7, 276.0, 1.2551660859640006E7)
+[07:25:34] [Server thread/INFO]: Eternity joined the game
+[07:26:02] [Server thread/INFO]: Made Eternite a server operator
+[07:26:07] [Server thread/INFO]: Made Eternity a server operator
+[07:26:09] [Server thread/INFO]: [Eternity: Set own game mode to Creative Mode]
+[07:26:29] [Server thread/INFO]: [Eternity: Set own game mode to Survival Mode]
+[07:27:40] [Server thread/INFO]: Eternity lost connection: Disconnected
+[07:27:40] [Server thread/INFO]: Eternity left the game
+[07:28:04] [Server thread/INFO]: Eternity[/127.139.25.163:57439] logged in with entity id 594 at (1.2550167276214506E7, 276.0, 1.2551676594621116E7)
+[07:28:04] [Server thread/INFO]: Eternity joined the game
+[07:33:57] [Server thread/INFO]: [Eternity: Gave 16 [Armor Stand] to Eternity]
+[07:34:59] [Server thread/INFO]: [Eternity: Gave 64 [Wind Charge] to Eternity]
+[07:37:20] [Server thread/INFO]: Eternity lost connection: Disconnected
+[07:37:20] [Server thread/INFO]: Eternity left the game
+[07:38:20] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[09:22:16] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[09:22:16] [Server thread/INFO]: <--[HERE]
+[09:22:27] [Server thread/INFO]: [Not Secure] [Server] six sevn
+[09:23:46] [Server thread/INFO]: ItzRosstheboss[/127.184.145.77:46311] logged in with entity id 5931 at (1.2550172666870045E7, 276.0, 1.2551660022701731E7)
+[09:23:46] [Server thread/INFO]: ItzRosstheboss joined the game
+[09:32:56] [Server thread/INFO]: Zenifity[/127.184.145.77:52413] logged in with entity id 6158 at (1.2550181355708918E7, 275.9215999984741, 1.2551655596898574E7)
+[09:32:56] [Server thread/INFO]: Zenifity joined the game
+[09:33:03] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[09:33:07] [Server thread/INFO]: [Not Secure] <Zenifity> wtf
+[09:33:17] [Server thread/INFO]: ItzRosstheboss lost connection: Timed out
+[09:33:17] [Server thread/INFO]: ItzRosstheboss left the game
+[09:33:17] [Server thread/WARN]: handleDisconnection() called twice
+[09:43:18] [Server thread/INFO]: Zenifity lost connection: Disconnected
+[09:43:18] [Server thread/INFO]: Zenifity left the game
+[09:43:27] [Server thread/INFO]: Zenifity[/127.184.145.77:41833] logged in with entity id 6174 at (1.255018139246673E7, 276.0, 1.2551652715575995E7)
+[09:43:27] [Server thread/INFO]: Zenifity joined the game
+[09:56:04] [Server thread/INFO]: [Zenifity: Set own game mode to Spectator Mode]
+[09:56:13] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[09:57:16] [Server thread/WARN]: Zenifity moved too quickly! -0.35206106305122375,-1.044812420399012,10.168010100722313
+[09:57:19] [Server thread/WARN]: Zenifity moved too quickly! 10.535074962303042,0.0,1.6179570984095335
+[10:01:38] [Server thread/INFO]: Tuk4Tuk[/127.59.25.218:36447] logged in with entity id 7424 at (1.2550178887547642E7, 276.0, 1.2551658127085648E7)
+[10:01:38] [Server thread/INFO]: Tuk4Tuk joined the game
+[10:01:55] [Server thread/INFO]: [Zenifity: Set own game mode to Spectator Mode]
+[10:01:56] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:02:02] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:02:38] [Server thread/INFO]: Tuk4Tuk lost connection: Timed out
+[10:02:38] [Server thread/INFO]: Tuk4Tuk left the game
+[10:04:03] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:04:32] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:06:16] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:06:19] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:06:39] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:06:41] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:09:30] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:09:57] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:09:58] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:11:36] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:11:49] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:12:04] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:12:07] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:12:49] [Server thread/INFO]: AzatosuZun (b0ecdb8c-ede4-37bc-9d65-628ac65d3a77) lost connection: Disconnected
+[10:13:57] [Server thread/INFO]: Tuk4Tuk[/127.59.25.218:42297] logged in with entity id 7510 at (1.2550181125950139E7, 276.0, 1.2551654071475908E7)
+[10:13:57] [Server thread/INFO]: Tuk4Tuk joined the game
+[10:14:26] [Server thread/INFO]: AzatosuZun[/127.9.110.209:58535] logged in with entity id 7514 at (514.1502770772838, 58.61933187693265, -592.3058851167604)
+[10:14:26] [Server thread/INFO]: AzatosuZun joined the game
+[10:14:36] [Server thread/INFO]: AzatosuZun lost connection: Disconnected
+[10:14:36] [Server thread/INFO]: AzatosuZun left the game
+[10:14:41] [Server thread/INFO]: Corxupted_Hex[/127.9.110.209:60365] logged in with entity id 7519 at (478.5, 51.0, -591.5)
+[10:14:41] [Server thread/INFO]: Corxupted_Hex joined the game
+[10:14:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=479, y=47, z=-598}
+[10:14:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=479, y=48, z=-599}
+[10:14:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=479, y=49, z=-598}
+[10:14:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=479, y=49, z=-597}
+[10:14:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=479, y=49, z=-597}
+[10:15:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=479, y=48, z=-593}
+[10:15:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=476, y=48, z=-603}
+[10:15:21] [Server thread/INFO]: [Zenifity: Teleported Corxupted_Hex to Zenifity]
+[10:16:11] [Server thread/INFO]: [Zenifity: Removed 2 item(s) from player Corxupted_Hex]
+[10:17:06] [Server thread/INFO]: [Not Secure] <Tuk4Tuk> throw intro trashcan
+[10:17:16] [Server thread/INFO]: [Zenifity: Removed 64 item(s) from player Corxupted_Hex]
+[10:21:16] [Server thread/INFO]: [Zenifity: Teleported Corxupted_Hex to Zenifity]
+[10:23:03] [Server thread/INFO]: [Tuk4Tuk: Set own game mode to Survival Mode]
+[10:24:36] [Server thread/INFO]: [Tuk4Tuk: Removed effect Slow Falling from Tuk4Tuk]
+[10:25:30] [Server thread/WARN]: Tuk4Tuk moved wrongly!
+[10:25:30] [Server thread/WARN]: Tuk4Tuk moved wrongly!
+[10:25:31] [Server thread/WARN]: Tuk4Tuk moved wrongly!
+[10:25:32] [Server thread/WARN]: Tuk4Tuk moved wrongly!
+[10:26:00] [Server thread/INFO]: [Tuk4Tuk: Removed 57 item(s) from player Corxupted_Hex]
+[10:26:08] [Server thread/INFO]: [Tuk4Tuk: Removed effect Slow Falling from Tuk4Tuk]
+[10:27:06] [Server thread/INFO]: [Tuk4Tuk: Teleported Corxupted_Hex to Tuk4Tuk]
+[10:27:49] [Server thread/INFO]: [Zenifity: Removed 389 item(s) from player Corxupted_Hex]
+[10:27:50] [Server thread/INFO]: Corxupted_Hex was smashed by Tuk4Tuk with [🔥 | Chosen]
+[10:27:55] [Server thread/INFO]: [Zenifity: Teleported Corxupted_Hex to Zenifity]
+[10:28:04] [Server thread/INFO]: [Zenifity: Teleported Corxupted_Hex to Zenifity]
+[10:28:07] [Server thread/INFO]: [Zenifity: Teleported Corxupted_Hex to Zenifity]
+[10:28:15] [Server thread/INFO]: [Tuk4Tuk: Teleported Corxupted_Hex to Zenifity]
+[10:28:28] [Server thread/INFO]: [Zenifity: Teleported Corxupted_Hex to Tuk4Tuk]
+[10:28:29] [Server thread/INFO]: [Tuk4Tuk: Teleported Corxupted_Hex to Zenifity]
+[10:28:34] [Server thread/INFO]: [Tuk4Tuk: Set Zenifity's game mode to Survival Mode]
+[10:28:36] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:28:38] [Server thread/INFO]: [Zenifity: Teleported Corxupted_Hex to Zenifity]
+[10:28:39] [Server thread/INFO]: [Tuk4Tuk: Set Zenifity's game mode to Survival Mode]
+[10:28:42] [Server thread/INFO]: [Zenifity: Set Corxupted_Hex's game mode to Survival Mode]
+[10:28:43] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:28:50] [Server thread/INFO]: [Tuk4Tuk: Teleported Tuk4Tuk to Zenifity]
+[10:29:46] [Server thread/INFO]: [Not Secure] <Tuk4Tuk> elytras dont work in farlands**
+[10:29:55] [Server thread/INFO]: [Not Secure] <Tuk4Tuk> cu
+[10:29:59] [Server thread/INFO]: [Not Secure] <Tuk4Tuk> that was the start
+[10:30:00] [Server thread/INFO]: [Not Secure] <Tuk4Tuk> of farlands
+[10:30:22] [Server thread/INFO]: [Tuk4Tuk: Gave 16 [Armor Stand] to Tuk4Tuk]
+[10:30:48] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:30:52] [Server thread/INFO]: Corxupted_Hex was smashed by Tuk4Tuk with [🔥 | Chosen]
+[10:31:03] [Server thread/INFO]: [Tuk4Tuk: Teleported Corxupted_Hex to Tuk4Tuk]
+[10:31:13] [Server thread/WARN]: Tuk4Tuk moved too quickly! 2.04152693413198,9.848326233994783,0.28454459831118584
+[10:31:20] [Server thread/INFO]: [Tuk4Tuk: Set Corxupted_Hex's game mode to Survival Mode]
+[10:31:23] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:32:00] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:32:10] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:32:23] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:32:34] [Server thread/WARN]: Zenifity moved too quickly! -0.03429477475583553,-11.015895794565267,1.0474769994616508
+[10:32:37] [Server thread/INFO]: Corxupted_Hex was smashed by Zenifity with [Gambit]
+[10:32:46] [Server thread/INFO]: [Zenifity: Teleported 3 entities to Zenifity]
+[10:32:47] [Server thread/INFO]: [Zenifity: Teleported 3 entities to Zenifity]
+[10:32:47] [Server thread/INFO]: [Zenifity: Teleported 3 entities to Zenifity]
+[10:32:51] [Server thread/INFO]: [Zenifity: Set Corxupted_Hex's game mode to Survival Mode]
+[10:33:03] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:33:15] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:33:49] [Server thread/INFO]: [Tuk4Tuk: Removed 1 item(s) from player Zenifity]
+[10:33:53] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:33:58] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:34:20] [Server thread/INFO]: [Tuk4Tuk: Set own game mode to Creative Mode]
+[10:34:39] [Server thread/INFO]: [Tuk4Tuk: Set own game mode to Survival Mode]
+[10:35:02] [Server thread/INFO]: Corxupted_Hex was smashed by Zenifity
+[10:35:52] [Server thread/INFO]: [Tuk4Tuk: Set Corxupted_Hex's game mode to Survival Mode]
+[10:35:56] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:36:04] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:36:04] [Server thread/INFO]: [Tuk4Tuk: Teleported 3 entities to Tuk4Tuk]
+[10:37:49] [Server thread/INFO]: Zenifity was smashed by Corxupted_Hex with [The Mace of Death]
+[10:37:51] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:37:54] [Server thread/INFO]: [Zenifity: Teleported Zenifity to Tuk4Tuk]
+[10:37:56] [Server thread/INFO]: [Zenifity: Set own game mode to Spectator Mode]
+[10:37:57] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:38:02] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:38:21] [Server thread/INFO]: [Tuk4Tuk: Set own game mode to Creative Mode]
+[10:38:26] [Server thread/INFO]: Corxupted_Hex was smashed by Zenifity
+[10:38:33] [Server thread/INFO]: [Zenifity: Set Corxupted_Hex's game mode to Survival Mode]
+[10:38:37] [Server thread/INFO]: [Zenifity: Teleported 3 entities to Zenifity]
+[10:38:41] [Server thread/INFO]: [Tuk4Tuk: Set own game mode to Survival Mode]
+[10:38:51] [Server thread/INFO]: Corxupted_Hex was smashed by Tuk4Tuk with [🔥 | Chosen]
+[10:39:08] [Server thread/INFO]: [Tuk4Tuk: Set Corxupted_Hex's game mode to Survival Mode]
+[10:39:11] [Server thread/INFO]: [Tuk4Tuk: Teleported 3 entities to Tuk4Tuk]
+[10:39:43] [Server thread/INFO]: [Tuk4Tuk: Gave 16 [Armor Stand] to Tuk4Tuk]
+[10:40:44] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:40:59] [Server thread/INFO]: Tuk4Tuk lost connection: Timed out
+[10:40:59] [Server thread/INFO]: Tuk4Tuk left the game
+[10:41:31] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:41:48] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:42:13] [Server thread/INFO]: Tuk4Tuk[/127.59.25.218:57173] logged in with entity id 14411 at (1.255015768297741E7, 276.0, 1.2551661471433194E7)
+[10:42:13] [Server thread/INFO]: Tuk4Tuk joined the game
+[10:42:29] [Server thread/INFO]: Corxupted_Hex was smashed by Tuk4Tuk with [🔥 | Chosen]
+[10:42:38] [Server thread/INFO]: [Tuk4Tuk: Set Corxupted_Hex's game mode to Survival Mode]
+[10:42:41] [Server thread/INFO]: [Tuk4Tuk: Teleported Corxupted_Hex to Tuk4Tuk]
+[10:43:48] [Server thread/INFO]: Corxupted_Hex was smashed by Tuk4Tuk with [🔥 | Chosen]
+[10:43:54] [Server thread/INFO]: [Tuk4Tuk: Teleported Corxupted_Hex to Tuk4Tuk]
+[10:43:58] [Server thread/INFO]: [Tuk4Tuk: Set Corxupted_Hex's game mode to Survival Mode]
+[10:44:05] [Server thread/INFO]: [Tuk4Tuk: Set Zenifity's game mode to Survival Mode]
+[10:44:08] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:44:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=495, y=53, z=-599}
+[10:44:16] [Server thread/INFO]: [Tuk4Tuk: Teleported Corxupted_Hex to Tuk4Tuk]
+[10:44:18] [Server thread/INFO]: Tuk4Tuk was smashed by Corxupted_Hex with [The Mace of Death]
+[10:44:29] [Server thread/INFO]: [Tuk4Tuk: Teleported Tuk4Tuk to Corxupted_Hex]
+[10:44:32] [Server thread/INFO]: [Tuk4Tuk: Set own game mode to Survival Mode]
+[10:44:39] [Server thread/INFO]: [Zenifity: Removed 359 item(s) from player Corxupted_Hex]
+[10:44:51] [Server thread/INFO]: [Tuk4Tuk: Gamerule keepInventory is now set to: false]
+[10:44:54] [Server thread/INFO]: [Tuk4Tuk: Teleported Corxupted_Hex to Tuk4Tuk]
+[10:44:58] [Server thread/INFO]: Corxupted_Hex was slain by Tuk4Tuk using [🗡 | Doom]
+[10:45:33] [Server thread/INFO]: [Tuk4Tuk: Teleported Corxupted_Hex to Tuk4Tuk]
+[10:45:37] [Server thread/INFO]: [Tuk4Tuk: Set Corxupted_Hex's game mode to Survival Mode]
+[10:45:56] [Server thread/INFO]: [Tuk4Tuk: Removed 16 item(s) from player Corxupted_Hex]
+[10:45:57] [Server thread/INFO]: [Tuk4Tuk: Removed 1 item(s) from player Corxupted_Hex]
+[10:46:11] [Server thread/INFO]: [Tuk4Tuk: Removed 5 item(s) from player Corxupted_Hex]
+[10:46:19] [Server thread/INFO]: [Tuk4Tuk: Removed 4 item(s) from player Corxupted_Hex]
+[10:46:25] [Server thread/INFO]: Corxupted_Hex was killed while fighting Tuk4Tuk
+[10:46:25] [Server thread/INFO]: [Zenifity: Killed Corxupted_Hex]
+[10:46:40] [Server thread/INFO]: [Tuk4Tuk: Teleported Corxupted_Hex to Zenifity]
+[10:46:44] [Server thread/INFO]: [Tuk4Tuk: Set Corxupted_Hex's game mode to Survival Mode]
+[10:47:54] [Server thread/INFO]: [Zenifity: Running function orbital:give/stab_1]
+[10:48:08] [Server thread/INFO]: [Zenifity: Set own game mode to Spectator Mode]
+[10:48:16] [Server thread/WARN]: Zenifity moved too quickly! -7.227662554010749,0.0,8.048345325514674
+[10:48:17] [Server thread/INFO]: [Zenifity: Set own game mode to Survival Mode]
+[10:48:18] [Server thread/INFO]: [Zenifity: Set own game mode to Creative Mode]
+[10:48:19] [Server thread/WARN]: Zenifity moved too quickly! -0.4181316141039133,-10.184074939147308,0.09603271074593067
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784482], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784482], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784482], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784482], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784480], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784480], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784480], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784480], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784481], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784481], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784481], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784481], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784484], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784484], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784484], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784484], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784483], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784483], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784483], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784418, 784483], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784481], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784481], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784481], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784481], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784483], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784483], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784483], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784483], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784485], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784485], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784485], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784485], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784489], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784489], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784489], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784489], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784480], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784480], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784480], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784480], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784482], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784482], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784482], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784482], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784487], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784487], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784487], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784487], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784486], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784486], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784486], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784486], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784484], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784484], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784484], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784484], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784488], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784488], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784488], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784488], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784490], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784490], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784490], size does not match; expected: 52, got: 37
+[10:48:19] [Server thread/WARN]: Ignoring heightmap data for chunk [784419, 784490], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784480], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784480], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784480], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784480], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784481], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784481], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784481], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784481], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784484], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784484], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784484], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784484], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784482], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784482], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784482], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784482], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784483], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784483], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784483], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784483], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784485], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784485], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784485], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784485], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784490], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784490], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784490], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784490], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784486], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784486], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784486], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784486], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784487], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784487], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784487], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784487], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784489], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784489], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784489], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784489], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784488], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784488], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784488], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784488], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784491], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784491], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784491], size does not match; expected: 52, got: 37
+[10:48:20] [Server thread/WARN]: Ignoring heightmap data for chunk [784420, 784491], size does not match; expected: 52, got: 37
+[10:48:21] [Server thread/WARN]: Zenifity moved too quickly! -0.09386410377919674,-10.380749107743242,0.1643027849495411
